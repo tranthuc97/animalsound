@@ -1,0 +1,9 @@
+id:13
+word:mark
+spelling:/mɑːrk/
+type:v
+translate:Chấm điểm
+hint:The teacher needs to mark our papers before this weekend.
+trasHint:Giáo viên cần chấm điểm các bài tập của chúng tôi trước cuối tuần này.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/mark.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/mark.png

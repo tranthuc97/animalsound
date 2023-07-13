@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drHomeAct"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/itemActionBar"
+            layout="@layout/item_actionbar" />
+
+        <LinearLayout
+            android:id="@+id/lnMainAct"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="InefficientWeight,UselessLeaf">
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/itemMenu"
+            layout="@layout/item_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnDrawerInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:ignore="UselessLeaf,VisualLintBounds">
+
+        <include
+            android:id="@+id/lnInformation"
+            layout="@layout/item_information" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnDrawerSetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf,VisualLintBounds">
+
+        <include
+            android:id="@+id/lnSetting"
+            layout="@layout/item_setting" />
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

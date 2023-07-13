@@ -1,0 +1,9 @@
+id:19
+word:teamwork
+spelling:/ˈtiːmwɜːrk/
+type:n
+translate:Làm việc nhóm
+hint:Teamwork is one of the most important skills of students.
+trasHint:Làm việc theo nhóm là một trong những kỹ năng quan trọng nhất của sinh viên.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/teamwork.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/teamwork.png"

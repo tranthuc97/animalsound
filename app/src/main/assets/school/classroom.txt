@@ -1,0 +1,9 @@
+id:3
+word:classroom
+spelling:/ˈklæsruːm/
+type:n
+translate:Lớp học
+hint:They are studying in the classroom.
+trasHint:Họ đang học trong lớp học.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/classroom.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/classroom.png

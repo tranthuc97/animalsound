@@ -1,0 +1,9 @@
+id:20
+word:training
+spelling:/ˈtreɪnɪŋ/
+type:n
+translate:Sự đào tạo
+hint:His training program will start next month.
+trasHint:Chương trình đào tạo của anh ấy sẽ bắt đầu vào tháng tới.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/training.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/training.png

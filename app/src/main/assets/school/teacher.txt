@@ -1,0 +1,9 @@
+id:2
+word:teacher
+spelling:/ˈtiːtʃər/
+type:n
+translate:Giáo viên
+hint:Her mother is a teacher at our secondary school
+trasHint:Mẹ cô ấy là một giáo viên ở trường trung học của chúng tôi.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/teacher.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/teacher.png

@@ -1,0 +1,9 @@
+id:15
+word:perform
+spelling:/pərˈfɔːrm/
+type:v
+translate:Thực hiện, thể hiện
+hint:Most of the students perform well in the exam.
+trasHint:Hầu hết các học sinh thể hiện tốt trong kì thi.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/perform.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/perform.png

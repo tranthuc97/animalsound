@@ -1,0 +1,9 @@
+id:17
+word:subjective test
+spelling:/səbˈdʒektɪv test/
+type:v
+translate:Thi tự luận
+hint:We are going to take a subjective test.
+trasHint:Chúng tôi sắp có một bài thi tự luận.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/subjective_test.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/subjective_test.png

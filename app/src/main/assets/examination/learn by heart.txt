@@ -1,0 +1,9 @@
+id:12
+word:learn by heart
+spelling:/lɜːrn baɪ hɑːrt/
+type:v
+translate:Học thuộc lòng
+hint:I have to learn by heart the lesson before going to class.
+trasHint:Tôi phải học thuộc lòng bài học trước khi đến lớp.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/learn_by_heart.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/learn_by_heart.png

@@ -1,0 +1,9 @@
+id:5
+word:examination
+spelling:/ɪɡˌzæmɪˈneɪʃn/
+type:n
+translate:Kiểm tra, kỳ thi
+hint:He is going to take an entrance examination.
+trasHint:Anh ấy chuẩn bị tham gia một kỳ thi đầu vào.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/examination.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/examination.png

@@ -1,0 +1,9 @@
+id:14
+word:objective test
+spelling:/əbˈdʒektɪv test/
+type:v
+translate:Thi trắc nghiệm
+hint:I am going to take an objective test.
+trasHint:Tôi sẽ có một bài thi trắc nghiệm.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/objective_test.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/objective_test.png

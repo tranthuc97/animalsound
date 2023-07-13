@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:id="@+id/lnLearn1_1"
+    android:background="@drawable/bg_white_shadow"
+    android:orientation="vertical"
+    tools:ignore="TextSizeCheck">
+
+    <ImageView
+        android:id="@+id/ivPictureLearn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_student"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="@string/txt_his_younger_sister_is_a_student_at_that_university"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivTouch"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_touch"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+</LinearLayout>

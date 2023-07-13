@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnFragmentLearn1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivSound"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bg_sound"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <!--   tạo navigation trỏ thằng mainAct đén navigation-->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navigation"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="400dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <TextView
+        android:id="@+id/tvContinue"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_button_green"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/txt_continue"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+</LinearLayout>

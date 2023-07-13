@@ -1,0 +1,9 @@
+id:9
+word:lesson
+spelling:/ˈlesn/
+type:n
+translate:Bài học, tiết học
+hint:There is a special lesson from Professor London tomorrow.
+trasHint:Có một tiết học đặc biệt của Giáo sư London vào ngày mai.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/lesson.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/lesson.png

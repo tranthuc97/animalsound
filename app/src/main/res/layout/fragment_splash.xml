@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivLauncher"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_launcher"
+        tools:ignore="ContentDescription" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center"
+            android:text="@string/txt_easy"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center"
+            android:text="@string/txt_language"
+            android:textColor="@color/colorRed"
+            android:textSize="40sp"
+            tools:ignore="TextContrastCheck" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/ivLet"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_clound_let"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivGet"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_clound_get"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivStarted"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_clound_started"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivBus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_bus"
+            tools:ignore="ContentDescription" />
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

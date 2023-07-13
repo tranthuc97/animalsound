@@ -1,0 +1,9 @@
+id:8
+word:exercise
+spelling:/ˈeksərsaɪz/
+type: n
+translate:Bài tập
+hint:This exercise is quite hard for a first-year student.
+trasHint:Bài tập này khá khó đối với một sinh viên năm nhất.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/exercise_us.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/exercise.png

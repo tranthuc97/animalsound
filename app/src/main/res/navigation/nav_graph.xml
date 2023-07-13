@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/learnP1_1">
+
+    <!--    đặt tên cho thẻ fragment sử dụng trong navigation   -->
+    <!--    định nghĩa splash trong navigation   -->
+    <fragment
+        android:id="@+id/learnP1_1"
+        android:name="com.thuctran.easylanguage.view.fragment.learn.P1LearnDetailFragment1"
+        android:label="learn1_1"
+        app:route="learn1_1"
+        tools:layout="@layout/fragment_learn_p1_1">
+        <action
+            android:id="@+id/toLearn1_2"
+            app:destination="@id/learnP1_2"
+            app:popUpTo="@id/learnP1_1"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/learnP1_2"
+        android:name="com.thuctran.easylanguage.view.fragment.learn.P1LearnDetailFragment2"
+        android:label="learn1_2"
+        app:route="learn1_2"
+        tools:layout="@layout/fragment_learn_p1_2">
+
+        <action
+            android:id="@+id/toLearn1_1"
+            app:destination="@id/learnP1_1"
+            app:popUpTo="@id/learnP1_2"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+</navigation>

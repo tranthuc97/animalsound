@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnSetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_button_topic"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/txt_play_music"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/cbMusic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:buttonTint="@color/black" />
+
+
+    </TableRow>
+
+</FrameLayout>

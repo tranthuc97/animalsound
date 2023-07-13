@@ -1,0 +1,9 @@
+id:4
+word:principal
+spelling:/ˈprɪnsəpl/
+type:n
+translate:Hiệu trưởng
+hint:His father is a principal of a high school.
+trasHint:Cha anh ấy là hiệu trưởng ở một trường trung học.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/principal.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/principal.png

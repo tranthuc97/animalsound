@@ -1,0 +1,9 @@
+id:10
+word:truant
+spelling:/ˈtruːənt/
+type:v
+translate:Trốn học
+hint:A number of pupils truant regularly.
+trasHint:Một số học sinh thường xuyên trốn học.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/truant.mp3
+picture:https://afamilycdn.com/zoom/640_400/2019/11/28/099d6239887f6121386e-1574875669095291434500-crop-15748756764261964747413.jpg

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/txt_translate_vietnamese"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/bg_text_tittle"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvVietnamese"
+            android:layout_width="wrap_content"
+            android:text="Học sinh, sinh viên"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle=""
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:text="@string/txt_type"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle=""
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvAns1"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="30dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_white_shadow"
+        android:fontFamily="@font/quicksand_medium"
+        android:padding="20dp"
+        android:text="@string/txt_student"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:ignore="SpUsage,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvAns2"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_white_shadow"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:padding="20dp"
+        android:text="@string/txt_teacher"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:ignore="SpUsage,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvAns3"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_white_shadow"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:padding="20dp"
+        android:text="@string/txt_doctor"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:ignore="SpUsage,TextSizeCheck" />
+
+
+
+    <TextView
+        android:id="@+id/tvContinue"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_button_blue"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_continue"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="TextSizeCheck" />
+
+
+</LinearLayout>

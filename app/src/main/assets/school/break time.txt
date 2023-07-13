@@ -1,0 +1,9 @@
+id:7
+word:break time
+spelling:/breɪk taɪm/
+type:n
+translate:Giờ giải lao
+hint:We usually play football during break time.
+trasHint:Chúng tôi thường chơi bóng đá trong thời gian nghỉ.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/break_time.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/break_time.png

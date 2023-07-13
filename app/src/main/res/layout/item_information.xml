@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_information"
+        android:textColor="@color/colorRed"
+        android:textSize="35sp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_photo"
+        app:shapeAppearance="@style/roundedImageTopic"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/white2"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_name2"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white2"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/txt_age"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_age2"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvFunny"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:background="@drawable/bg_button_topic"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_text_funny"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="VisualLintLongText" />
+
+</LinearLayout>

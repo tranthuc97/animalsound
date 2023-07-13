@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/txt_input_text"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_discovery"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/edtInputWord"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:autofillHints="name"
+            android:background="@drawable/bg_white_shadow"
+            android:fontFamily="@font/quicksand_light"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/colorGray"
+            android:hint="@string/txt_student"
+            android:inputType="text"
+            android:padding="15dp"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/bgSearch"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_button_green"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="@string/txt_search"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/lnResult"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/tvWord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/txt_student"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/ivSound"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bg_sound"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvSpelling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/txt_spelling"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvTranslate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/txt_translate"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/tvHint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/quicksand_medium"
+                android:text="@string/txt_his_younger_sister_is_a_student_at_that_university"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/ivTranslate"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_translate"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+        </TableRow>
+    </LinearLayout>
+
+
+</LinearLayout>

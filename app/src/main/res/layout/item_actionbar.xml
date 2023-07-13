@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_white_shadow"
+    android:layout_width="424dp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/lnItemActionBar"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="10dp"
+    android:layout_height="56dp">
+
+
+    <ImageView
+        android:id="@+id/ivInformation"
+        android:layout_width="36dp"
+        android:src="@drawable/ic_user"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivEasyLanguage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_easy_language"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ivSetting"
+        android:layout_width="36dp"
+        android:src="@drawable/ic_setting"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnFragmentLearn1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_fill_the_word"
+        android:textSize="25sp" />
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_translate"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_type"
+            android:textSize="30sp" />
+    </TableRow>
+
+
+
+    <EditText
+        android:id="@+id/edtInputWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:autofillHints="name"
+        android:background="@drawable/bg_edt_white2"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/txt_xxx"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/btCheck"
+        android:layout_width="200dp"
+        android:text="@string/txt_check"
+        android:gravity="center"
+        android:background="@drawable/bg_button_topic"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/quicksand_bold"
+        android:textSize="25sp"
+        android:layout_gravity="end"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/tvContinue"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/bg_button_green"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_continue"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</LinearLayout>

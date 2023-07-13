@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:id="@+id/lnDialogCheck"
+    android:background="@color/colorGray"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/txt_student"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/ivSound"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bg_sound"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvSpelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="@string/txt_spelling"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="@string/txt_translate"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/txt_his_younger_sister_is_a_student_at_that_university"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/ivTranslate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_translate"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btOk"
+        android:layout_width="100dp"
+        android:backgroundTint="@color/colorBlue"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/txt_ok"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+id:1
+word:student
+spelling:/ˈstuːdnt/
+type:n
+translate:Học sinh, sinh viên
+hint:His younger sister is a student at that university.
+trasHint:Em gái của anh ấy là một sinh viên ở trường đại học đó.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/student.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/student.png

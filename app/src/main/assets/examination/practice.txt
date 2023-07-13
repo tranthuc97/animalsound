@@ -1,0 +1,9 @@
+id:16
+word:practice
+spelling:/pərˈfɔːrm/
+type:v
+translate:Thực hành, luyện tập
+hint:They practice what they have learnt in the class.
+trasHint:Họ thực hành những gì đã học trên lớp.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/practice.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/practice.png

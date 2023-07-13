@@ -1,0 +1,9 @@
+id:11
+word:discuss
+spelling:/dɪˈskʌs/
+type:v
+translate:Thảo luận, tranh luận
+hint:We often discuss some global affairs in the class.
+trasHint:Chúng tôi thường thảo luận về một số vấn đề toàn cầu trong lớp.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/discuss.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/discuss.png

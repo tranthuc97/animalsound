@@ -1,0 +1,9 @@
+id:6
+word:learn
+spelling:/lɜːrn/
+type:v
+translate:Học hỏi, biết được, tìm hiểu
+hint:He should learn from his big mistake.
+trasHint:Anh ấy nên học hỏi (và thay đổi) từ sai lầm lớn đó.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/learn.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/learn.png

@@ -1,0 +1,9 @@
+id:18
+word:take an exam
+spelling:/teɪk ən ɪɡˈzæm/
+type:v
+translate:Dự thi (làm bài thi)
+hint:She will take an exam next week.
+trasHint:Cô ấy sẽ làm bài thi vào tuần tới.
+mp3:https://mochien3.1-api.mochidemy.com/public/audios/question/take_an_exam.mp3
+picture:https://mochien3.1-api.mochidemy.com/public/images/question/take_an_exam.png

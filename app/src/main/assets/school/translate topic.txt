@@ -1,0 +1,3 @@
+topic:school
+translate:Trường Học
+picture:https://mochien3.1-api.mochidemy.com/public/images/lesson/TACB_lesson_35.png
